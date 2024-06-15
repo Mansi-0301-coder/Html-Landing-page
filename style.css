@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IS:wght@100..400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "playwrite IS", cursive;
+}
+.container{
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.60)), url(./image/images.jpeg)
+}
+nav{
+    margin: auto;
+    width: 85%;
+    height: 80px;
+}
+h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: rgb(232, 227, 237);
+}
+ul{
+    float: right;
+    line-height: 80px;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+ nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+nav ul li a:hover{
+    background-color: #eb7620;
+    transition: 0.5s ease;
+}
+nav ul li .active{
+    background-color: #eb7620;
+}
+.body{
+    width: 50%;
+    text-align: center;
+    transform: translateY(25vh);
+    margin: auto;
+}
+.body h2{
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.body p{
+    font-size: 18px;
+    color: #7e7e7e;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.body button{
+    color: #fff;
+    padding: 12px 25px;
+    letter-spacing: 1.5;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #f15048;
+    
+}
+.body button:hover{
+    background-color: #4399fa;
+    transition: 0.5s ease;
+}
